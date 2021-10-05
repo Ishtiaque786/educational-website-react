@@ -14,7 +14,7 @@ const Teachers = () => {
       <div>
         <h2>Our Respected Teachers</h2>
         {teachers.map((teacher) => (
-          <TeacherProfile teacher={teacher}></TeacherProfile>
+          <TeacherProfile key={teacher.key} teacher={teacher}></TeacherProfile>
         ))}
       </div>
     </>

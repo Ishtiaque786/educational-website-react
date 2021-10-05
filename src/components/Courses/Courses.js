@@ -21,7 +21,7 @@ const Courses = () => {
           We have best courses here to make you professional in the IT sector.
         </h4>
         {courses.map((course) => (
-          <CourseInfo course={course}></CourseInfo>
+          <CourseInfo key={course.key} course={course}></CourseInfo>
         ))}
       </div>
     </>

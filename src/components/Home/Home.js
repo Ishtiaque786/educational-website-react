@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-
-import FourCoursesInHome from "../FourCoursesInHome/FourCoursesInHome";
+import About from "../About/About";
 import HomeCourses from "../HomeCourses/HomeCourses";
 import img1 from "./1.jpg";
 import img2 from "./2.jpg";
@@ -9,8 +8,6 @@ import img3 from "./3.jpg";
 import "./Home.css";
 
 const Home = () => {
-  // const { name, img, fee, duration, prerequsite } = props.course;
-
   return (
     <>
       <div>
@@ -39,6 +36,9 @@ const Home = () => {
 
         <div className="my-3">
           <HomeCourses></HomeCourses>
+        </div>
+        <div className="my-3">
+          <About></About>
         </div>
       </div>
     </>

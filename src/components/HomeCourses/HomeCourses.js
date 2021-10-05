@@ -20,7 +20,10 @@ const HomeCourses = () => {
           We have best courses here to make you professional in the IT sector.
         </h4>
         {courses.slice(0, 4).map((course) => (
-          <FourCoursesInHome course={course}></FourCoursesInHome>
+          <FourCoursesInHome
+            key={course.key}
+            course={course}
+          ></FourCoursesInHome>
         ))}
       </div>
     </>
