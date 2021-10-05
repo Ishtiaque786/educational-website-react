@@ -1,6 +1,6 @@
 # EasyLearn - Online skill developement website
 
-## Live site -
+## Live site - https://peaceful-hodgkin-850078.netlify.app/
 
 ### • In this website you can find the course to develop your skill in It sector.
 
