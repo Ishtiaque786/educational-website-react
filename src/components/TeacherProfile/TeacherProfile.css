@@ -1,0 +1,8 @@
+.teacher-profile {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #dfe6e9;
+}

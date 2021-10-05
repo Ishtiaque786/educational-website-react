@@ -1,0 +1,16 @@
+body {
+  text-decoration: none;
+  list-style: none;
+  background-color: #dfe6e9;
+}
+.menu-item {
+  padding: 12px;
+  margin: 8px;
+  font-size: 25px;
+}
+.menu-item:hover {
+  background-color: #747d8c;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 4px;
+}
